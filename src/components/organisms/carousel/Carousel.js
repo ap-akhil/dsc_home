@@ -88,7 +88,7 @@ export default function Carousel() {
           return (
             <article key={item.id} className={`carousel-item ${position}`}>
               <Carouselcard
-                cardTitle={`${item.cardTitle} ${item.id}`}
+                cardTitle={`${item.cardTitle}`}
                 cardsubheading={item.cardsubheading}
                 tag1={item.tag1}
                 tag2={item.tag2}

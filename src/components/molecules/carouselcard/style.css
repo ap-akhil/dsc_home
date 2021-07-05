@@ -36,7 +36,6 @@
     height: 500px;
   }
   .carousel-img {
-    object-fit: none;
     object-fit: cover;
     opacity: 0.5;
   }
